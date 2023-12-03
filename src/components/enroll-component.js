@@ -73,6 +73,7 @@ const EnrollComponent = ({ currentUser, setCurrentUser }) => {
                 <p>價格: {course.price}</p>
                 <p>目前的學生人數: {course.students.length}</p>
                 <a
+                  // eslint-disable-next-line
                   href="#"
                   onClick={handleEnroll}
                   className="card-text btn btn-primary"
