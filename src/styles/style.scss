@@ -1,0 +1,11 @@
+.test {
+  animation: test 0.5s ease-in-out 0s normal forwards;
+}
+@keyframes test {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
